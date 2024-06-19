@@ -1,0 +1,14 @@
+.meals-list {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border-radius: 15px;
+  border: 1px solid grey;
+  box-shadow: 0px 0px 7px grey;
+  align-self: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.meals-list:last-child {
+  border-bottom: none;
+}

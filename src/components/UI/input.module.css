@@ -1,0 +1,52 @@
+.fields {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 25px;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.input-cum-err-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  font-size: 18px;
+  padding: 8px 4px 4px 4px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  outline: none;
+}
+
+.erronous-input {
+  border: 1px solid rgb(241, 18, 18);
+}
+
+.err-msg {
+  position: absolute;
+  width: fit-content;
+  padding: 0px 5px;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: oblique;
+  color: rgb(241, 18, 18);
+  background-color: white;
+  left: 5px;
+  top: -22px;
+  animation: pop-in 0.3s ease-in-out;
+}
+
+@keyframes pop-in {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

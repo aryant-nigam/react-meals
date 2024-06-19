@@ -1,0 +1,122 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-color: white;
+  width: 30%;
+  z-index: 10;
+  border-radius: 15px;
+  border: 1px solid rgb(49, 49, 49);
+  box-shadow: 0px 0px 7px rgb(22, 22, 22);
+  padding: 15px;
+  border-radius: 10px;
+  align-items: center;
+  border: 1px solid black;
+  position: absolute;
+  margin: auto auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.cart-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  flex: 3 1;
+}
+.cart-header > h1 {
+  text-align: center;
+}
+.close-cart-btn {
+  background-color: #ffb032;
+  border-radius: 50%;
+  font-weight: bold;
+  border: none;
+  color: white;
+  height: 25px;
+  width: 25px;
+  padding-top: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+.close-cart-btn:hover {
+  background-color: #ffb032;
+  box-shadow: 0px 0px 2px #a86903;
+}
+.table-header {
+  align-items: center;
+  width: 25px;
+  font-family: "Caveat", cursive;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 5px;
+  border-bottom: 1px dashed gray;
+}
+
+.table {
+  width: 100%;
+  border: 1px dashed gray;
+  border-radius: 5px;
+}
+
+.table-row {
+  width: 100%;
+}
+
+h1 {
+  color: #000;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Caveat", cursive;
+}
+
+.cart-footer {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-footer > h6 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+}
+
+.checkout-btn:hover {
+  background-color: #ffb032;
+  box-shadow: 0px 0px 2px #a86903;
+}
+
+.checkout-btn {
+  font-size: 14px;
+  background-color: #ff9f03;
+  text-shadow: 0px 0px 2px #a86903;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  padding: 5px;
+  cursor: pointer;
+}
+.error-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error-img {
+  height: 180px;
+  width: 150px;
+}
+.error-tag {
+}

@@ -1,0 +1,97 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  margin: auto auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.form-heading {
+  padding: 15px 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #ff9f03;
+  margin-bottom: 20px;
+}
+
+.fields {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 25px;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.input {
+  font-size: 18px;
+  padding: 4px;
+}
+
+.radio-group-box {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-group-box > div > input {
+  cursor: pointer;
+  accent-color: #ff9f03;
+  border: 1px dotted blue;
+}
+
+.err-msg {
+  width: fit-content;
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: oblique;
+  color: rgb(241, 18, 18);
+  background-color: white;
+  animation: pop-in 0.3s ease-in-out;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin: 25px 25px;
+}
+
+.cancel-btn,
+.submit-btn {
+  background-color: #ff9f03;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  align-self: flex-end;
+  margin-left: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.cancel-btn:hover,
+.submit-btn:hover {
+  box-shadow: 0px 0px 5px gray;
+}
+
+.disabled-btn {
+  cursor: not-allowed;
+  background-color: #f8b74f;
+}
+
+.disabled-btn:hover {
+  box-shadow: none;
+}

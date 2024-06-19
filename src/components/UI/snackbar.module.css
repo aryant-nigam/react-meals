@@ -1,0 +1,50 @@
+.snackbar {
+  display: flex;
+  height: 35px;
+  z-index: 10;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  left: 0px;
+  right: 0px;
+  padding: 5px 20px;
+  margin: auto;
+  box-shadow: 0px 0px 7px rgb(22, 22, 22);
+  animation: popup 0.3s ease-in-out, collapse 300ms ease-in-out 5750ms;
+}
+
+.msg {
+  font-weight: 600;
+}
+
+.action {
+  width: 25px;
+  height: 25px;
+  background-color: #ffb032;
+  box-shadow: 0px 0px 2px #a86903;
+  border-radius: 50%;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+}
+
+@keyframes popup {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes collapse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0);
+  }
+}

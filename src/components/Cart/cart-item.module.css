@@ -1,0 +1,32 @@
+.item-name {
+  font-size: 14px;
+  color: #ff9f03;
+  font-weight: 600;
+  text-align: center;
+}
+.attr {
+  color: grey;
+  font-style: italic;
+  text-align: center;
+}
+.qty-ctrls {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-self: center;
+}
+.increase-qty,
+.decrease-qty {
+  width: 20px;
+  height: 20px;
+  background-color: #ff9f03;
+  border-radius: 50%;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.increase-qty {
+  padding-top: 2.5px;
+}
